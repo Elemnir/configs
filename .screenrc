@@ -1,0 +1,12 @@
+# turn off startup message
+startup_message off
+
+# autodetach on hangup
+autodetach on
+
+caption always "%{= bb}%{+b w}%n %t %h %=%1 %H %c"
+hardstatus alwayslastline "%-Lw%{=BW}%50>%n%f* %t%{-}%+Lw%<"
+
+vbell_msg "*Woof Woof*"
+vbellwait 2
+vbell off
